@@ -1,0 +1,124 @@
+* {
+    border: 0 solid grey;
+}
+
+/* Header section */
+
+header {
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+header > img {
+    display: inline-block;
+    height: 50px;
+    border: 1px solid red;
+}
+
+header > p {
+    display: inline-block;
+    position: relative; top: -20px;
+}
+
+header > nav {
+    display: inline-block;
+    position: relative; left: 480px; top: -20px;
+}
+
+
+/* Learn something new every day section */
+
+.container1 {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #B3B6B9;
+    align-content: center;
+}
+
+.box1 {
+    display: inline-flex;
+    padding: 32px 24px;
+}
+
+image1 {
+    width: 50px;
+    height: 200px;
+}
+
+.box.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+button {
+    padding: 8px 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+/* It does not hurt keep practicing section */
+
+.container2 {
+    width: 60%;
+    height: 500px;
+    background-color: aqua;
+}
+
+.containerimage2 {
+    display: inline-flex;
+    width: 60%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    height: 250px;
+}
+
+.containertext2 {
+    display: inline-flex;
+}
+
+.container3 {
+    display: inline-flex;
+    width: 40%;
+    height: 500px;
+    background-color: red;
+}
+
+
+.containerimage3 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.box1 {
+    height: 200px;
+    width: 100px;
+}
+
+.box1 .box2 {
+    float: left;
+    display: inline;
+}
+
+.container2 .container3{
+    float: left;
+    display: inline;
+}
+
+.containermain {
+    width: 100%;
+    float: left;
+}
