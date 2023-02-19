@@ -4,6 +4,31 @@
 
 /* Header section */
 
+header {
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+
+header > img {
+    display: inline-block;
+    height: 50px;
+    border: 1px solid red;
+}
+
+header > p {
+    display: inline-block;
+    position: relative; top: -20px;
+}
+
+header > nav {
+    display: inline-block;
+    position: relative; left: 480px; top: -20px;
+}
 
 
 /* Learn something new every day section */
@@ -16,7 +41,7 @@
     align-content: center;
 }
 
-.box {
+.box1 {
     display: inline-flex;
     padding: 32px 24px;
 }
